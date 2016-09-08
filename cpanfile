@@ -1,9 +1,10 @@
 requires 'DBD::SQLite';
 requires 'DBIx::Class::Candy';
+requires 'Gazelle';
 requires 'JSON::MaybeXS';
-requires 'Web::Machine';
-requires 'Plack';
 requires 'Moo';
 requires 'MooX::HandlesVia';
-requires 'Types::Standard';
+requires 'Plack';
 requires 'SQL::Translator' => 0.11018;
+requires 'Types::Standard';
+requires 'Web::Machine';
